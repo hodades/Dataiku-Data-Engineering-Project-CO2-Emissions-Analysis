@@ -1,5 +1,7 @@
 # Dataiku-Data-Engineering-Project-CO2-Emissions-Analysis
 ![image](https://github.com/user-attachments/assets/25ee4823-f7f3-4f5f-a198-834581c4855d)
+![image](https://github.com/user-attachments/assets/45d1efe9-6a4d-4e2c-b175-38af7b2512b5)
+
 
 Datasets Used
 
