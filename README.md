@@ -13,13 +13,13 @@ Meat_and_Egg_Production.csv – Meat and egg production in tonnes, and meat supp
 
 Steps Followed
 
-1. Data Import
+# 1. Data Import
 
 Uploaded the three datasets into Dataiku DSS.
 
 Checked schema and inferred storage types.
 
-2. Data Merging
+# 2. Data Merging
 
 Used CO2_and_Oil.csv as the base dataset.
 
@@ -29,7 +29,7 @@ Filtered the dataset to include only data from 2008 to 2012.
 
 Ensured the final dataset had 985 rows and 11 columns.
 
-3. Data Cleaning and Transformation
+# 3. Data Cleaning and Transformation
 
 Converted Oil Production, Meat Production, and Egg Production into per capita values by dividing by the population.
 
@@ -39,13 +39,13 @@ Filtered out global data (Entity == "World").
 
 Replaced missing values in per capita columns with 0.
 
-4. Data Aggregation
+# 4. Data Aggregation
 
 Aggregated the dataset to compute the average values for each country over the period 2008-2012.
 
 The resulting dataset contained 196 rows (one per country).
 
-5. Data Ranking
+# 5. Data Ranking
 
 Created a ranking of the top 25 countries by CO₂ emissions per capita for each year.
 
